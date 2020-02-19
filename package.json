@@ -20,7 +20,8 @@
     "ts-node": "^8.6.2",
     "tslint": "^6.0.0",
     "typescript": "^3.7.5",
-    "webpack": "^4.41.6"
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
   },
   "dependencies": {
     "@overnightjs/core": "^1.6.14",
