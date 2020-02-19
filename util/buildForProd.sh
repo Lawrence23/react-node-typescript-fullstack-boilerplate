@@ -20,6 +20,8 @@ mkdir -p ./build/public/react/
 # Navigate to the react directory
 cd ./src/public/react
 
+npm install
+
 # Build React code
 npm run build
 
