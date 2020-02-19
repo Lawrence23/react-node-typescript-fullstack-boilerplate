@@ -1,0 +1,5 @@
+/package-lock.json
+/src/public/react/package-lock.json
+/node_modules
+/build
+/src/public/react/node_modules
