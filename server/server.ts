@@ -4,7 +4,6 @@ import * as bodyParser from "body-parser";
 import * as controllers from "./controllers";
 import { Server } from "@overnightjs/core";
 import { Logger } from "@overnightjs/logger";
-import SampleController from "./controllers/sampleController";
 
 class NodeServer extends Server {
   private readonly SERVER_START_MSG = "Server started on port ";
@@ -37,7 +36,7 @@ class NodeServer extends Server {
   }
 
   private serveFrontEndProd(): void {
-    const dir = path.join(__dirname, "public/react/demo-react/");
+    const dir = path.join(__dirname, "client");
     // Set the static and views directory
     this.app.set("views", dir);
     this.app.use(express.static(dir));
